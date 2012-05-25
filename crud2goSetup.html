@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link type="text/css" href="css/style.css" rel="stylesheet" media="screen" />
+<title>Crud2Go by Union Investment</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body>
+<div id="container">
+	
+	<div id="banner" >
+		
+		<a href="http://www.union-investment.de"><img src="images/ui_48.jpg" alt="" width="56" height="56" border="0" /></a>
+
+ 		<div id="innerbanner">				
+ 		 <a href="https://github.com/Union-Investment/Crud2Go" class="button fork"><strong>View On GitHub</strong></a>
+        <div class="downloads">
+          <section id="downloads">
+          	  <a class="home_link" href="index.html"></a>
+              <a class="zip_download_link" href="https://github.com/Union-Investment/Crud2Go/zipball/master">zip</a>
+              <a class="tar_download_link" href="https://github.com/Union-Investment/Crud2Go/tarball/master">tar.gz</a>
+             
+            </section>
+        </div>	
+		</div>	
+	</div>
+	
+
+	<div id="content">
+		<h2>Setup</h2>
+						<div class="article_content">
+				<div class="article">
+	                <h3>1. Get a liferay server bundle</span></h3>
+	                Download a liferay bundle from <a href="http://www.liferay.com" target="_blank">liferay homepage</a><br> 
+	                (here I use the jboss bundle)    
+	      </div>
+	      <br/>
+	      <div class="article">
+	                <h3>2. Change the vaadin version in the bundle</span></h3>
+	                <ul>		
+	            		<li>Download vaadin version XXXX from <a href="http://www.vaadin.com" target="_blank">vaadin homepage</a></li>
+	            		<li>Extract file</li>
+	            		<li>Replace vaadin jar in {appserver.deploy.dir}\ROOT.war\WEB-INF\lib file with the one downloaded before</li>
+	            		<li>Replace VAADIN dir with the one downloaded before (wie ist das mit widgetset compile ?) </li>
+	            	</ul>
+	      </div>
+	       <br/>
+	      <div class="article">
+	                <h3>3. Configure a datasource</span></h3>
+	                	<pre><code>
+	                	describe DS config		
+	                		
+	                		
+										</code></pre>
+	            		
+	      </div>
+	       <br/>
+	      <div class="article">
+	                <h3>4. Compile Crud2Go from source</span></h3>
+	             		<ul>
+	                	<li>Get sourcecode from git clone https://github.com/Union-IT-Services/Crud2Go.git</li>	
+	                	<li>run mvn clean install from eai-portal-build</li>	
+	                </ul>	
+	      </div>
+	      <br/>
+	      <div class="article">
+	                <h3>5. Deploy Crud2Go into liferay</span></h3>
+	                <ul>
+	                	<li>Login to liferay</li>	
+	                	<li>..... describe plugin installation here</li>	
+	                </ul>	
+	            
+	      </div>
+	      <br/>
+	      <div class="article">
+	                <h3>6. Configure Crud2Go portlet</span></h3>
+	            		<ul>
+	                	<li>Add portlet to page</li>	
+	                	<li>Upload configuration</li>	
+	                </ul>	
+	      </div>
+	      
+  </div>
+	     
+	</div>
+ 	<div id="footer"><h1></h1></div>
+</div>
+</body>
+</html>

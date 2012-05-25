@@ -27,15 +27,76 @@
 	
 
 	<div id="content">
-		<h2>Inhalt</h2>
-						<div class="article">
-	                <h3><span>Crud2Go</span></h3>
+		<h2>Welcome to Crud2Go Pages.</h2>
+		
+
+Crud2Go is an easy to use portlet for crud operations.
+It has been developed for the usage in a liferay portal using oracle databases(other options under investigation).
+The portlet implementation is based on vaadin and the configuration is done via xml upload.
+Possible configuration options are described in the user documentation or in the xsd of the configuration xml.
+Addtional functionality can be configured in a groovy code block in the config file. 
+<br/><br/>
+
+
+<div class="article">
+	                <h3><span><a href="crud2goSetup.html">Setup</a></span></h3>
+	                <ul>		
+	            		<li>Download vaadin version XXXX from <a href="http://www.vaadin.com" target="_blank">vaadin homepage</a></li>
+	            		<li>Extract file</li>
+	            		<li>Replace vaadin jar in {appserver.deploy.dir}\ROOT.war\WEB-INF\lib file with the one downloaded before</li>
+	            		<li>Replace VAADIN dir with the one downloaded before (wie ist das mit widgetset compile ?) </li>
+	            	</ul>
+	            	
+	            	 <p class="btn-more box"><strong><a href="crud2goSetup.html">Details</a></strong></p>
+	 </div>
+	 
+	 <br/>
+	 
+	  <div class="article">
+	                <h3><span><a href="crud2goConfiguration.html">Configuration</a></span></h3>
 	                <p>
-	                	Kurzbeschreibung crud2go
+	                	<ul type="square">
+			  							<li>Use the config generator for Crud2Go</li>
+			  							<li>Manual creation of config file</li>
+										</ul>
 	                </p>
+							<p class="btn-more box"><strong><a href="crud2goConfiguration.html">Details</a></strong></p>
 	      </div>
-	      <br>
+	      
+	   <br/>   
+
+ <div class="article">
+	                <h3>Examples</span></h3>
+	                	<br/><br/>
+	                Example 1: table with filter
+									<img src="images/example_table_filter.png" alt="table with filter">
+	
+	<br/><br/>		
+			Example 2: table tabs and export functionality
+			<img src="images/example_export_tabs.png" alt="table with tabs and export functionality">
+			
+			<br/><br/>		
+			Example 3: edit modes
+			
+			Inline editing<br/>
+			<img src="images/example_inline_edit_mode.png" alt="Inline editing">
+			<br/>
+	
+			
+			Form based editing <br/>
+			<img src="images/example_formular_edit_mode.png" alt="Form based editing">
+			
+			<br/><br/>		
+			Example 4: table with special cell style
+			<img src="images/example_cell_style.png" alt="Form based editing">
+	</div>
+	
+	
+	
+	 
 	     
+	     
+	    <!-- end content--> 
 	</div>
  	<div id="footer"><h1></h1></div>
 </div>
