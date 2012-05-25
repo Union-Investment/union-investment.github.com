@@ -1,0 +1,249 @@
+body {
+background-color: #ffffff;
+font-size: 11px;
+font-family: Verdana, Arial, SunSans-Regular, Sans-Serif;
+color:#564b47;
+padding:0;
+margin:0;
+}
+a {color: #DB7093;}
+a:visited {color:#DB7093;}
+a:hover {color: #564b47;}
+a:active { color:#000000;}
+
+h1 {
+font-size: 11px;
+text-transform:uppercase;
+background-color: #5884ae;
+border-top:1px solid #564b47;
+border-bottom:1px solid #564b47;
+padding:5px 15px;
+margin:0 }
+
+h2 {
+font-size:20px;
+font-weight: normal;
+padding: 5px 10px;
+margin:0px;}
+
+img.download {vertical-align:middle;}
+
+/* ----------container zentriert das layout-------------- */
+#container {
+width: 1000px;
+margin-bottom: 10px;
+margin:0 auto;
+background-color: #a7bcd5;
+}
+
+/* ----------banner for logo-------------- */
+
+#banner {
+background-color: #003f74;
+text-align: left;
+padding: 2px;
+margin: 0px;
+}
+#banner img {padding:10px 0px;} 
+
+
+
+#banner .button {
+  border: 1px solid #003f74;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #226796), color-stop(100%, #5884ae));
+  background: -webkit-linear-gradient(#226796, #5884ae);
+  background: -moz-linear-gradient(#226796, #5884ae);
+  background: -o-linear-gradient(#226796, #5884ae);
+  background: -ms-linear-gradient(#226796, #5884ae);
+  background: linear-gradient(#226796, #5884ae);
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
+  -moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.4), 0px 1px 1px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.4), 0px 1px 1px rgba(0, 0, 0, 0.1);
+  -o-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.4), 0px 1px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.4), 0px 1px 1px rgba(0, 0, 0, 0.1);
+  background-color: #226796;
+  margin-left: 5px;
+  padding: 10px 12px;
+  margin-top: 6px;
+  line-height: 14px;
+  font-size: 14px;
+  color: #333;
+  font-weight: bold;
+  display: inline-block;
+  text-align: center;
+}
+#banner .button:hover {
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #5884ae), color-stop(100%, #226796));
+  background: -webkit-linear-gradient(#5884ae, #226796);
+  background: -moz-linear-gradient(#5884ae, #226796);
+  background: -o-linear-gradient(#5884ae, #226796);
+  background: -ms-linear-gradient(#5884ae, #226796);
+  background: linear-gradient(#5884ae, #226796);
+  background-color: #5884ae;
+}
+
+#banner .downloads {
+	line-height: 40px;
+  float: right;
+  margin: 0 65px 0 0;
+  background: url(../images/download.ico) no-repeat bottom left 25px 25px;
+}
+#banner .downloads span {
+  float: left;
+  line-height: 40px;
+  font-size: 90%;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-shadow: rgba(255, 255, 255, 0.2) 0 1px 0;
+}
+#banner ul {
+  list-style: none;
+  height: 40px;
+  padding: 0;
+  float: left;
+  margin-left: 10px;
+}
+#banner ul li {
+  display: inline;
+}
+#banner ul li a.button {
+  background-color: #226796;
+}
+
+#innerbanner {
+min-height: 30px;
+background-color: #5884ae;
+text-align: left;
+padding: 2px;
+margin: 0px;
+border-top:1px solid #ffffff;
+}
+
+/* -----------------Inhalt--------------------- */
+#content {
+background-color: #ffffff;
+padding: 15px;
+margin: 0 1px;
+}
+div#content { 
+min-height:600px;
+height:expression(this.scrollHeight > 600 ? "auto":"600px"); 
+}
+
+p, pre{
+padding: 5px 10px;
+margin:0;
+}
+
+/* --------------left navigavtion------------- */
+#left {
+float: left;
+width: 100px;
+margin: 0px;
+padding: 0px;
+}
+#right {
+	float: right;
+	width: 100px;
+	margin: 0;
+	padding: 0;
+}
+/* -----------footer--------------------------- */
+#footer {
+clear: both;
+margin: 0px;
+padding: 0px;
+text-align: right; }
+
+
+
+/* -----------article--------------------------- */
+
+.article {clear:both; margin:0; padding:20px; border:thin solid; border-color:#C5D2E2;border-radius: 15px;max-width: 1200px;
+
+	}
+.article h3 {margin:0 -20px; padding:3px; background:#DEE5FD url("../images/article_title.gif") 0 0 repeat-y;}
+.article h3 span {background:url("../images/ico_list.gif") 0 50% no-repeat; padding-left:25px;}  
+.article p {text-align:justify;}
+
+.article a {
+  text-decoration: none;
+  color: #003f74;
+  text-shadow: none;
+
+  transition: color 0.5s ease;
+  transition: text-shadow 0.5s ease;
+  -webkit-transition: color 0.5s ease;
+  -webkit-transition: text-shadow 0.5s ease;
+  -moz-transition: color 0.5s ease;
+  -moz-transition: text-shadow 0.5s ease;
+  -o-transition: color 0.5s ease;
+  -o-transition: text-shadow 0.5s ease;
+  -ms-transition: color 0.5s ease;
+  -ms-transition: text-shadow 0.5s ease;
+}
+
+
+
+/* -----------button--------------------------- */
+.btn-more {margin:0 0 15px 0; padding:1px; border:0; position:relative;font-size:14px;}
+.btn-more a {display:block; position:absolute; top:0; right:0; width:67px; _width:95px; height:21px; margin:0; padding:0 0 0 28px; background:url("../images/btn_more.gif") 0 0 no-repeat; color:#FFF; text-decoration:none;}
+.btn-more a:hover {background:url("../images/btn_more.gif") -95px 0 no-repeat;color:#FFF; text-decoration:none;}
+
+
+.zip_download_link {
+	text-decoration: none;
+  float: right;
+  width: 60px;
+  height:60px;
+  overflow: hidden;
+  background: url(../images/download_60.png) no-repeat bottom left;
+  font-size: 14px;
+  color: #000000;
+  font-weight: bold;
+  display: inline-block;
+  text-align: center;
+}
+
+.tar_download_link {
+	text-decoration: none;
+  float: right;
+  width: 60px;
+  height:60px;
+  overflow: hidden;
+  background: url(../images/download_60.png) no-repeat bottom right;
+  margin-left: 10px;
+  font-size: 14px;
+  color: #000000;
+  font-weight: bold;
+  display: inline-block;
+  text-align: center;
+}
+
+.home_link {
+	text-decoration: none;
+  float: right;
+  width: 60px;
+  height:60px;
+  overflow: hidden;
+  background: url(../images/home-icon.png) no-repeat bottom left;
+  font-size: 14px;
+  color: #000000;
+  font-weight: bold;
+  display: inline-block;
+  text-align: center;
+}
+
+.zip_download_link:hover {
+  background: url(../images/download_60_over.png) no-repeat top left;
+}
+
+.tar_download_link:hover {
+  background: url(../images/download_60_over.png) no-repeat top right;
+}
+
